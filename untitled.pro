@@ -29,4 +29,6 @@ RESOURCES += \
     src.qrc
 
 DISTFILES += \
-    Sue/Desktop/Game.jpg
+    Sue/Desktop/Game.jpg \
+    logo.rc
+RC_FILE += logo.rc
