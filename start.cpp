@@ -18,8 +18,8 @@ Start::Start()
     bgm->setLoopCount(QSoundEffect::Infinite);
     bgm->play();
 
-    start->setWindowTitle("原神");
-    start->resize(1031, 645);
+    start->setWindowTitle("原神消消乐");
+    start->resize(1920, 1200);
     start->setWindowIcon(QIcon("://image/favicon.png"));
     start->move((screenRect.width()-start->width()) / 2, (screenRect.height()-start->height()) / 2 - 30); //使窗口出现在屏幕中央
     start->setFixedSize(start->width(), start->height());       //禁止调整窗口尺寸
@@ -27,9 +27,9 @@ Start::Start()
     start->show();
 
     QPushButton* btn = new QPushButton(start);
-    btn->resize(237, 63);
+    btn->resize(400, 100);
     btn->setStyleSheet("border-image:url(://image/Play.png)");
-    btn->move(407, 550);
+    btn->move(760, 1000);
     btn->show();
 
 

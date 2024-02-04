@@ -11,8 +11,8 @@ public:
         this->roguelike(no);
         this->num = num;
         this->clck(parent, v);
-        this->resize(50, 50);
-        this->move(110 + 50 * x, 80 + 50 * y);
+        this->resize(100, 100);
+        this->move(160 + 100 * x, 100 + 100 * y);
         this->show();
     }
     Block(){};

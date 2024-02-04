@@ -19,8 +19,8 @@ Game::Game()
 
     bgm->play();
 
-    game->setWindowTitle("原神");             //游戏窗体
-    game->resize(1031, 645);
+    game->setWindowTitle("原神消消乐");             //游戏窗体
+    game->resize(1920, 1200);
     game->setWindowIcon(QIcon("://image/favicon.png"));
     game->move((screenRect.width()-game->width()) / 2, (screenRect.height()-game->height()) / 2 - 30);
     game->setFixedSize(game->width(), game->height());
