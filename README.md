@@ -1,2 +1,2 @@
-# YuanShen
-A PoP game in QT 5.15.2.
+# YuanShenPop
+A Pop game in QT 5.15.2.
