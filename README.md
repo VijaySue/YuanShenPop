@@ -1,4 +1,4 @@
-# 原神消消乐 (YuanShenPop)
+# YuanShenPop 原神消消乐
 
 一个基于Qt 5.15.2开发的原神主题消消乐小游戏，适用于Windows平台。
 
